@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelBlog | Blog Detail</title>
+  <meta name="description" content="Read a detailed travel blog post with destination review and rating." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<a href="#main-content" class="skip-link" style="position:absolute;left:-999px;top:auto;">Skip to content</a>
+
+<header class="site-header">
+  <div class="page-container header-inner">
+    <a class="logo" href="index.html">TravelBlog</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <nav aria-label="Main navigation">
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog-list.html">Blog List</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content" class="page-container" role="main">
+  <article class="card" aria-label="Blog detail">
+    <h1>Blue Mountains Weekend Guide</h1>
+    <p class="muted">Posted by Admin • Sample content</p>
+
+    <img src="images/blog-detail.jpg" alt="A scenic mountain lookout with a walking track" />
+
+    <section aria-labelledby="overview-title">
+      <h2 id="overview-title">Overview</h2>
+      <p>
+        The Blue Mountains are great for a simple weekend trip. This guide covers what to do, where to go,
+        and what to pack.
+      </p>
+    </section>
+
+    <section aria-labelledby="spots-title">
+      <h2 id="spots-title">Best Spots</h2>
+      <ul class="clean-list">
+        <li>Echo Point lookout</li>
+        <li>Wentworth Falls track</li>
+        <li>Local cafés near Katoomba</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="review-title">
+      <h2 id="review-title">Review</h2>
+      <p><strong>Rating:</strong> 4.5/5</p>
+      <p><strong>Good for:</strong> beginners, weekend trips, scenic photos</p>
+    </section>
+
+    <a class="btn-secondary" href="blog-list.html">Back to Blog List</a>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="page-container">
+    <p class="muted">&copy; 2026 TravelBlog. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
