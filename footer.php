@@ -30,7 +30,7 @@
 
       <!-- Column 3: Social -->
       <section class="footer-col" aria-labelledby="footer-social-title">
-        <h2 id="footer-social-title" class="footer-title">Follow Me On The Web</h2>
+        <h2 id="footer-social-title" class="footer-title">Follow Us On The Web</h2>
 
         <ul class="footer-social" role="list">
           <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>

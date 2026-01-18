@@ -14,11 +14,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <section class="auth-shell" aria-label="Login page">
     <div class="auth-card" aria-labelledby="login-title">
       <h1 id="login-title">Welcome Back</h1>
-      <p class="muted">Log in to access your account and saved blogs.</p>
+      <p class="muted">Log in to access your account .</p>
 
       <?php if ($submitted): ?>
         <div class="form-message success" role="status" aria-live="polite">
-          Logged in (demo). Backend will validate credentials later.
+          Logged in 
+           <!-- Backend will validate credentials . -->
         </div>
       <?php endif; ?>
 

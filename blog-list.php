@@ -30,7 +30,7 @@ $filtered = array_values(array_filter($posts, function($p) use ($selected, $q){
 }));
 $topRated = array_slice($posts, 0, 3);
 
-/* Sidebar content (demo) */
+/* Sidebar content  */
 $popular = array_slice($posts, 0, 4);
 $featured = array_slice($posts, 0, 3);
 ?>
@@ -155,7 +155,7 @@ $featured = array_slice($posts, 0, 3);
         <div class="section-head">
           <div>
             <h2>All Posts</h2>
-            <p class="muted">Scroll-friendly list view (mobile first).</p>
+            <!-- <p class="muted">Scroll-friendly list view (mobile first).</p> -->
           </div>
         </div>
 
@@ -203,7 +203,7 @@ $featured = array_slice($posts, 0, 3);
         <div class="section-head">
           <div>
             <h2>Explore by Topic</h2>
-            <p class="muted">Quick entry points — helps users scan faster.</p>
+            <!-- <p class="muted">Quick entry points — helps users scan faster.</p> -->
           </div>
         </div>
 
@@ -285,7 +285,9 @@ $featured = array_slice($posts, 0, 3);
 
       <section class="side-card" aria-labelledby="side-newsletter">
         <h2 id="side-newsletter">Get Travel Updates</h2>
-        <p class="muted">Demo newsletter box (backend later).</p>
+        <p class="muted"> Your daily newsletter with the latest travel blogs and tips.
+          <!-- Demo newsletter box (backend later). -->
+        </p>
 
         <form class="side-form" action="#" method="post" aria-label="Newsletter signup">
           <label class="sr-only" for="news-email">Email</label>

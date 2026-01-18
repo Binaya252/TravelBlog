@@ -5,7 +5,7 @@ include "header.php";
 
 $submitted = false;
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-  $submitted = true; // demo only
+  $submitted = true; 
 }
 ?>
 
@@ -18,7 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
       <?php if ($submitted): ?>
         <div class="form-message success" role="status" aria-live="polite">
-          Account created (demo). Backend will store users later.
+          Account created 
+          <!-- Backend will store users. -->
         </div>
       <?php endif; ?>
 
@@ -36,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div class="form-group">
           <label for="r-pass">Password</label>
           <input id="r-pass" name="password" type="password" autocomplete="new-password" required />
-          <p class="help-text muted">Use 8+ characters. (Backend will enforce rules later.)</p>
+          <p class="help-text muted">Use 8+ characters. (Backend will enforce rules )</p>
         </div>
 
         <button class="btn-primary btn-block" type="submit">Create Account</button>

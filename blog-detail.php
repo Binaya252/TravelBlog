@@ -37,8 +37,7 @@ $posts = [
     "title" => "Blue Mountains Weekend Guide",
     "author" => "Admin",
     "category" => "Mountains",
-    // IMPORTANT: make this match your real filename
-    "img" => "images/bluemoutain.jpg",
+    "img" => "images/bluemountain.jpg",
     "alt" => "A scenic mountain lookout with a walking track",
     "overview" => "The Blue Mountains are great for a simple weekend trip. This guide covers what to do, where to go, and what to pack.",
     "spots" => ["Echo Point lookout", "Wentworth Falls track", "Local cafés near Katoomba"],
@@ -127,7 +126,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div class="section-inner review-grid">
           <div>
             <h2 id="reviews-heading">User Reviews</h2>
-            <p class="muted">Sample review UI — backend will load/store these later.</p>
+            <!-- Data load here from backend -->
+            <p class="muted">Very good place plenty of fish.</p>
           </div>
 
           <div class="review-preview" aria-label="Sample reviews">
@@ -149,7 +149,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
           <?php if ($submitted): ?>
             <div class="form-message success" role="status" aria-live="polite">
-              Review submitted (demo). Backend will save it to database later.
+              Review submitted 
+               <!-- . Backend will save it to database  -->
             </div>
           <?php endif; ?>
 

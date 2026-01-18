@@ -52,7 +52,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
       <?php if ($sent): ?>
         <div class="form-message success" role="status" aria-live="polite">
-          Message sent (demo). Backend will handle delivery later.
+          Message sent
+            <!-- Backend will handle delivery . -->
+
         </div>
       <?php endif; ?>
 

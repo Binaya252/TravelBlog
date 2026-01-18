@@ -76,7 +76,7 @@ $latestPosts = [
   ],
 ];
 
-/* Media preview (use your media gallery style keys correctly) */
+/* Media preview */
 $mediaPreview = [
   ["full"=>"images/sydneyhouse.jpg", "thumb"=>"images/sydneyhouse.jpg", "alt"=>"Sydney Opera House near the water"],
   ["full"=>"images/tropicalbeach.jpg", "thumb"=>"images/tropicalbeach.jpg", "alt"=>"Tropical beach with palm trees"],
@@ -100,17 +100,15 @@ include "header.php";
 
 <main id="main-content" class="page-container" role="main">
 
-  <!-- =========================
-       HOME LAYOUT (MAIN + SIDEBAR)
-       ========================= -->
+  <!-- HOME LAYOUT (MAIN + SIDEBAR) -->
+
   <section class="home-layout" aria-label="Homepage layout with right sidebar">
 
-    <!-- =========================
-         MAIN COLUMN
-         ========================= -->
+    <!-- MAIN COLUMN-->
+
     <div class="home-main">
 
-      <!-- ===== HOME: HERO ===== -->
+      <!--  HOME: HERO  -->
       <section class="section section-hero" aria-labelledby="hero-title">
         <div class="section-inner hero-grid">
           <div>
@@ -132,7 +130,7 @@ include "header.php";
             </ul>
           </div>
 
-          <!-- hero image (keep big + clean crop via CSS) -->
+          <!-- hero image -->
           <img
             src="images/LookingAtSun.jpg"
             alt="Traveler with a backpack looking at mountains"
@@ -142,7 +140,7 @@ include "header.php";
         </div>
       </section>
 
-      <!-- ===== HOME: WHAT YOU CAN DO ===== -->
+      <!--  HOME: WHAT YOU CAN DO  -->
       <section class="section section-soft" aria-labelledby="skills-title">
         <div class="section-inner">
           <h2 id="skills-title">What you can do here</h2>
@@ -166,7 +164,7 @@ include "header.php";
         </div>
       </section>
 
-      <!-- ===== HOME: FEATURED BLOGS (BIGGER CARDS) ===== -->
+      <!--  HOME: FEATURED BLOGS   -->
       <section class="section" aria-labelledby="featured-title">
         <div class="section-inner">
           <div class="section-head">
@@ -212,11 +210,11 @@ include "header.php";
         </div>
       </section>
 
-      <!-- ===== HOME: REVIEWS (LEFT) + NEWSLETTER (RIGHT) ===== -->
+      <!--  HOME: REVIEWS (LEFT) + NEWSLETTER (RIGHT)  -->
       <section class="section section-accent" aria-labelledby="review-title">
         <div class="section-inner split-grid">
 
-          <!-- LEFT: Reviews slider (demo) -->
+          <!-- LEFT: Reviews slider -->
           <div class="review-panel" aria-label="What travelers are saying">
             <h2 id="review-title">What travelers are saying</h2>
             <p class="muted">Real-ish feedback UI — backend can load these later.</p>
@@ -269,7 +267,7 @@ include "header.php";
         </div>
       </section>
 
-      <!-- ===== HOME: LATEST POSTS GRID ===== -->
+      <!--  HOME: LATEST POSTS GRID  -->
       <section class="section" aria-labelledby="latest-title">
         <div class="section-inner">
           <div class="section-head">
@@ -307,7 +305,7 @@ include "header.php";
         </div>
       </section>
 
-      <!-- ===== HOME: MEDIA PREVIEW (ELEGANT CROP GRID) ===== -->
+      <!--  HOME: MEDIA PREVIEW   -->
       <section class="section section-soft" aria-labelledby="media-title">
         <div class="section-inner">
           <div class="section-head">
@@ -332,7 +330,7 @@ include "header.php";
         </div>
       </section>
 
-      <!-- ===== HOME: FINAL CTA ===== -->
+      <!-- HOME: FINAL CTA  -->
       <section class="section section-cta" aria-labelledby="cta-title">
         <div class="section-inner cta-box">
           <div>
@@ -345,9 +343,7 @@ include "header.php";
 
     </div>
 
-    <!-- =========================
-         RIGHT SIDEBAR
-         ========================= -->
+    <!-- RIGHT SIDEBAR -->
     <aside class="home-sidebar" aria-label="Homepage sidebar">
 
       <!-- Top Rated -->

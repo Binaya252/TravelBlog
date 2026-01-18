@@ -20,14 +20,14 @@ $values = [
 
 <main id="main-content" class="page-container" role="main">
 
-  <!-- HERO / PAGE INTRO -->
+  <!-- <HERO / PAGE INTRO -->
   <section class="section section-hero" aria-labelledby="about-title">
     <div class="section-inner about-hero">
       <div>
         <h1 id="about-title">About TravelBlog</h1>
         <p class="muted">
           TravelBlog is a travel blogging and review platform where users can read real travel experiences,
-          compare destination ratings, and explore media highlights — all in an accessible, user-friendly design.
+          compare destination ratings, and explore media highlights all in an accessible, user-friendly design.
         </p>
 
         <ul class="hero-badges" aria-label="About highlights">
@@ -78,7 +78,7 @@ $values = [
       <h2 id="why-title">Why Choose TravelBlog?</h2>
       <p class="muted">
         Unlike random social posts, TravelBlog keeps information structured: blog details, rating summaries, and review forms
-        are designed for readability and trust. This makes the platform easier to use, especially on mobile.
+        are designed for readability and trust. This makes the platform easier to use, especially with world becoming more closer together.
       </p>
     </div>
   </section>
@@ -102,7 +102,7 @@ $values = [
   <!-- PRIVACY NOTICE -->
   <section id="privacy" class="section section-soft" aria-labelledby="privacy-title">
     <div class="section-inner">
-      <h2 id="privacy-title">Privacy Notice (Simple)</h2>
+      <h2 id="privacy-title">Privacy Notice </h2>
       <p class="muted">
         We collect only the information needed to provide the service (e.g. account details and submitted reviews).
         Passwords should be securely stored using hashing on the backend. User data is not sold, and access control should
